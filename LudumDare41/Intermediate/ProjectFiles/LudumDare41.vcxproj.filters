@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\LudumDare41.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{955C5370-CE43-4677-97D6-7C42C89C7C58}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\LudumDare41.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\LudumDare41Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{7D2495AE-03A2-4EAD-92F3-55BA074A8708}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\LudumDare41">
+			<UniqueIdentifier>{AC44509E-8868-451C-A8FA-4996F3BE315F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\LudumDare41\LudumDare41.Build.cs">
+			<Filter>Source\LudumDare41</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\LudumDare41\LudumDare41.cpp">
+			<Filter>Source\LudumDare41</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LudumDare41\LudumDare41.h">
+			<Filter>Source\LudumDare41</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LudumDare41\LudumDare41GameModeBase.cpp">
+			<Filter>Source\LudumDare41</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LudumDare41\LudumDare41GameModeBase.h">
+			<Filter>Source\LudumDare41</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
